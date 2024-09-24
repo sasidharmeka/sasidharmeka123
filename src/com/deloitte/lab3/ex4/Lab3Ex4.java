@@ -17,7 +17,7 @@ public class Lab3Ex4 {
             int n2 = str.charAt(i + 1) - '0'; // Convert char to integer
 
             // Find the absolute difference between consecutive digits
-            int diff = Math.abs(n1 + n2);
+            int diff = Math.abs(n1 - n2);
 
             // Append the difference to the StringBuilder
             sb.append(diff);
